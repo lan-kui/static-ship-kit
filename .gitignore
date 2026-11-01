@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Node / package managers (scaffold has no lockfile by design)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs / local secrets — never commit
+dist/
+public/
+.out/
+_site/
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+wrangler.toml.bak
+
+# Hugo local (if you extend the sample)
+resources/_gen/
+.hugo_build.lock
+
+# Archives of paid packs (do not drop full ZIPs into this public repo)
+*.zip
+*.tar.gz
+!scaffold-pages/.gitkeep

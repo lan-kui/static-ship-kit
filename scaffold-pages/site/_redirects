@@ -1,0 +1,8 @@
+# SAMPLE Cloudflare Pages _redirects (documentation only)
+# Uncomment and edit for your domain — do not copy blindly into production.
+#
+# Force HTTPS is usually handled by Pages / Cloudflare; host canonicalization example:
+# /home    /          302
+#
+# SPA fallback example (only if you truly ship a client router):
+# /*    /index.html   200
